@@ -1,0 +1,43 @@
+// Colors
+//---------------------------------
+// https://www.htmlcsscolor.com/hex/334482
+
+// Base
+
+$color-black:             #000000;
+$color-white:             #ffffff;
+$color-error:             #c72d2a;
+$color-focus:             #d39a36;
+$color-active:            #97962d;
+$color-transparent:       rgba(255, 255, 255, 0);
+
+// Gradient
+
+$black-to-right:                    linear-gradient(90deg, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0) 75%);
+
+// Typography
+//---------------------------------
+
+$font-family--r:                    "Raleway", "Arial", sans-serif;
+$font-family--pt:                   "PT-Sans", "Arial", sans-serif;
+$font-family--i:                    "IBM-Plex-Sans", "Arial", sans-serif;
+
+// Animation
+//---------------------------------
+
+$default-transition-settings:       0.3s ease;
+$modal-transition-settings:         0.6s cubic-bezier(0.55, 0, 0.1, 1);
+
+// Viewports
+//---------------------------------
+
+$viewport--sm:                      320px; // phone 320-639
+$viewport--md:                      640px; // tablet 640-959
+$viewport--lg:                      960px; // dekstop 960-1440
+$viewport--xl:                      1440px;
+
+// Retina
+//---------------------------------
+
+$retina-dpi:                        144dpi;
+$retina-dppx:                       1.5dppx;

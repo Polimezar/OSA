@@ -1,0 +1,23 @@
+.footer {
+  display: flex;
+  background-color: black;
+  height: 120px;
+
+  a {
+    font-family: $font-family--pt;
+    font-size: 18px;
+    color: $color-white;
+    margin: 48px;
+
+    span {
+      font-family: $font-family--i;
+      font-size: 17px;
+      text-decoration-line: underline;
+    }
+
+    &:hover,
+    &focus {
+      opacity: 0.7;
+    }
+  }
+}
