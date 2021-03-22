@@ -487,11 +487,9 @@ button,
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  min-height: 100vh;
   min-height: calc(100 * var(--vh, 1vh));
   overflow-x: hidden; }
   .wrapper--no-scrollbar {
-    height: 100vh;
     height: calc(100 * var(--vh, 1vh));
     -ms-overflow-style: none;
     scrollbar-width: none; }
@@ -755,7 +753,7 @@ button,
         padding-left: 36px; } }
     @media (max-width: 639px) {
       .adaptive__list-item .adaptive__list-text {
-        max-width: 165px; } }
+        max-width: 190px; } }
   .adaptive__list-item .adaptive__list-span {
     display: block;
     width: 72px;
